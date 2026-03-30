@@ -1,0 +1,52 @@
+================================================================================
+VORLAGE – Bitte die markierten Felder vor jeder Bewerbung ausfüllen bzw. anpassen
+================================================================================
+
+[IHRE ADRESSE – Zeile 1]
+Joshua Manuel Höpfner
+Mühlstraße 22
+74080 Heilbronn
+
+[HEUTIGES DATUM, z. B. 28. März 2026]
+
+[FIRMENNAME]
+[PERSON bzw. „Bewerbung“ / „z. Hd. Personalabteilung“]
+[STRASSE UND HAUSNR.]
+[PLZ ORT]
+
+Bewerbung als [KONKRETE STELLENBEZEICHNUNG – aus der Anzeige]
+
+Sehr geehrte[r] [Name Ansprechpartner, falls bekannt – sonst: „Damen und Herren“],
+
+mit großem Interesse bewerbe ich mich hiermit [optional: „in der Anlage“ / „wie aus der Stellenausschreibung hervorgeht“] um die Position als [Stellenbezeichnung wiederholen oder leicht variieren].
+
+Derzeit studiere ich an der Hochschule Heilbronn im Bachelorstudiengang Angewandte Informatik (3. Semester). Im Studium sowie in meinem Umfeld lege ich viel Wert auf belastbare Grundlagen und sauberes, praxisnahes Arbeiten; das spiegelt sich auch in meinen Leistungen wider (Grundstudium 1,9; bisheriger Schnitt im Hauptstudium 1,1; Abitur 1,3, Markgräfin-Wilhelmine-Gymnasium Bayreuth, 2024).
+
+Über die Theorie hinaus sammle ich bereits relevante Berufserfahrung: Als Mitgründer einer IT-GbR setze ich u. a. Webprojekte, Digitalisierung und technische Infrastruktur für Kunden um. An der Hochschule Heilbronn war ich zuletzt Tutor für das Modul „Mobile Computing“ (Android mit Kotlin, große Lerngruppe) und konnte Verantwortung für Struktur, Betreuung und Bewertung übernehmen. Darüber hinaus bin ich seit dem 2. Semester als Nachhilfelehrer in Mathematik tätig – das schärft Kommunikation, Geduld und die Fähigkeit, komplexe Themen verständlich zu machen.
+
+Technisch bewege ich mich im Spektrum von Softwareentwicklung und Web (u. a. Java, Kotlin, Python, JavaScript; Spring Boot, Node.js) über Datenbanken und gängige Toolchains (Git, Docker, Android Studio u. a.) bis hin zu tieferliegender Systemnähe (C/C++, Embedded). In Projekten habe ich unter anderem Websites und Geschäftslösungen realisiert, Android-Apps im Studium entwickelt und mich mit KI-bezogenen Services auseinandergesetzt. Ich arbeite strukturiert, lerne schnell und möchte meine Fähigkeiten gezielt in einem professionellen Umfeld weiter ausbauen.
+
+Ihre Stellenausschreibung spricht mich an, weil [HIER 1–3 Sätze spezifisch: z. B. Branche, Tech-Stack, Arbeitsweise, Team, Mission – aus der Anzeige übernehmen]. Genau dort sehe ich die Chance, meinen akademischen und praktischen Hintergrund sinnvoll einzubringen und gleichzeitig verantwortungsvoll zu wachsen.
+
+Über eine Einladung zum persönlichen Gespräch freue ich mich sehr. Selbstverständlich stehen Ihnen mein Lebenslauf und Zeugnisse gern zur Verfügung.
+
+Mit freundlichen Grüßen
+
+Joshua Manuel Höpfner
+
+---
+Kontakt (bei Bedarf im Fließtext oder im CV, nicht doppelt nötig):
+E-Mail: joashuamanuelhoepfner@gmail.com
+Telefon: 0151 2636 6002
+
+================================================================================
+HINWEISE ZUR ANPASSUNG
+================================================================================
+• Ersetzen Sie alle Einträge in [GROSSBUCHSTABEN-KLAMMERN] vor dem Versand.
+• Passen Sie den Absatz „Ihre Stellenausschreibung spricht mich an …“ immer an die 
+  konkrete Firma und Stelle an – das ist der wichtigste individuelle Teil.
+• Wenn Sie keinen Ansprechpartner kennen: „Sehr geehrte Damen und Herren,“
+• Bei Karrieremail-Portalen reichen oft Kurzanschreiben; Sie können die mittleren 
+  Absätze leicht kürzen und die technische Liste streichen, wenn der Lebenslauf 
+  ohnehin beigefügt ist.
+================================================================================

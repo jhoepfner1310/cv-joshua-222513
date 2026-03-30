@@ -1,0 +1,164 @@
+/* Extra Styles für Lebenslauf-PDF (zusätzlich zu style.css) */
+
+.print-cv .fade-in {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+/* Vorschau wie gedruckte Version */
+.print-cv .navbar,
+.print-cv .hero-actions,
+.print-cv .scroll-indicator {
+    display: none !important;
+}
+
+.print-cv .hero {
+    min-height: auto;
+    padding: 32px 0 48px;
+}
+
+.print-cv .doc-action {
+    display: none !important;
+}
+
+.print-cv .doc-card {
+    cursor: default;
+    pointer-events: none;
+}
+
+@media print {
+    @page {
+        size: A4;
+        margin: 14mm 12mm 12mm 12mm;
+    }
+
+    html {
+        font-size: 10.5pt;
+    }
+
+    .navbar,
+    .nav-toggle,
+    .hero-actions,
+    .scroll-indicator,
+    .doc-action {
+        display: none !important;
+    }
+
+    .hero-bg-pattern {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .hero {
+        min-height: auto !important;
+        padding: 16px 0 28px !important;
+        page-break-after: avoid;
+    }
+
+    .section {
+        padding: 18px 0 !important;
+    }
+
+    /* Schlussbereich: einspaltig = weniger Phantom-Leerseiten durch Grid-Umbrüche */
+    .projects-grid,
+    .personal-grid,
+    .docs-grid {
+        grid-template-columns: 1fr !important;
+        gap: 14px !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+        max-width: 100% !important;
+    }
+
+    .personal-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    /* Zu viele break-inside: avoid stapeln den Kontaktblock und erzwingen Leerseiten */
+    .project-card,
+    .personal-card,
+    .skill-category,
+    .doc-card {
+        break-inside: auto;
+        page-break-inside: auto;
+    }
+
+    .exp-card,
+    .highlight-card,
+    .timeline-item {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .section-title {
+        page-break-after: avoid;
+    }
+
+    /* Dokumente + Kontakt möglichst zusammenhalten, aber intern umbrechbar */
+    #dokumente {
+        page-break-after: avoid;
+        page-break-inside: auto;
+    }
+
+    #dokumente .section-subtitle {
+        margin-bottom: 24px !important;
+    }
+
+    #kontakt {
+        page-break-before: avoid;
+        page-break-inside: auto;
+        break-inside: auto;
+        padding-top: 8mm !important;
+        padding-bottom: 12px !important;
+        margin-top: 0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    #kontakt .section-subtitle {
+        margin-bottom: 20px !important;
+    }
+
+    #kontakt .contact-card {
+        padding: 14px 16px !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    #kontakt .contact-card svg {
+        margin-bottom: 8px !important;
+    }
+
+    .section-dark {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .projects-grid {
+        break-inside: auto;
+    }
+
+    .footer {
+        padding: 14px 12px !important;
+        page-break-before: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body {
+        overflow: visible !important;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a[href^="mailto:"],
+    a[href^="tel:"] {
+        color: inherit;
+    }
+}
